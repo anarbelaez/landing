@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+:root {
+  --cream-pink: rgb(255, 205, 232);
+  --red-devil: rgb(131, 2, 19);
+  --crimson-red: rgb(154, 0, 2);
+  --mordant-red: rgb(179, 13, 2);
+  --middle-gray: rgb(241, 241, 241);
+  --dark-gray: rgb(88, 88, 88);
+  --eerie-black: rgb(26, 26, 26);
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 35px;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  color: var(--eerie-black);
+}
+
+ul, li {
+  margin: 0;
+}
+
+/* Background colors */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-red-devil {
+  background-color: var(--red-devil,rgb(131, 2, 19));
+}
+
+.bg-cream-pink {
+  background-color: var(--cream-pink,rgb(255, 205, 232));
+}
+
+.bg-mordant-red {
+  background-color: var(--mordant-red,rgb(179, 13, 2));
+}
+
+.bg-middle-gray {
+  background-color: var(--middle-gray,rgb(241, 241, 241));
+}
+
+.bg-dark-gray  {
+  background-color: var(--dark-gray,rgb(88, 88, 88));
+}
+
+.bg-crimson-red {
+  background-color: var(--crimson-red,rgb(154, 0, 2));
+}
+
+.bg-eerie-black {
+  background-color: var(--eerie-black,rgb(26, 26, 26));
+}
+
+/* Text colors */
+
+.text-white {
+  color: white;
+}
+
+.text-red-devil {
+  color: var(--red-devil,rgb(131, 2, 19));
+}
+
+.text-cream-pink {
+  color: var(--cream-pink,rgb(255, 205, 232));
+}
+
+.text-mordant-red {
+  color: var(--mordant-red,rgb(179, 13, 2));
+}
+
+.text-middle-gray {
+  color: var(--middle-gray,rgb(241, 241, 241));
+}
+
+.text-dark-gray  {
+  color: var(--dark-gray,rgb(88, 88, 88));
+}
+
+.text-crimson-red {
+  color: var(--crimson-red,rgb(154, 0, 2));
+}
+
+.text-eerie-black {
+  color: var(--eerie-black,rgb(26, 26, 26));
+}
+
+/* Container */
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* Section 1 - Banner */
+
+.section1 {
+  padding: 60px 0 70px 0;
+}
+
+.section1 .container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.section1 .child-left h1 {
+  font-weight: bold;
+}
+
+.section1 .child-left p {
+  margin: -20px 0 40px 0;
+}
+
+.section1 .child-left .btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.section1 .child-left .btn-primary:hover {
+  padding: 8px 18px;
+  background-color: white;
+  border: 2px solid var(--crimson-red);
+  color: var(--crimson-red);
+  font-weight: bold;
+}
+
+.section1 .child-right {
+  display: flex;
+}
+
+.section1 .child-right img {
+  margin-top: 70px;
+  max-height: 350px;
+}
+
+/* Section 2 - Cards */
+
+.section2 .cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 50px 0;
+}
+
+.section2 .cards .card {
+  flex-basis: 200px;
+  padding: 30px 50px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 2px 2px 0 var(--middle-gray);
+  border-radius: 20px;
+}
+
+.section2 .card img {
+  width: 200px;
+  height: 200px;
+}
+
+.section2 .container > h2 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section2 .card h2 {
+  font-size: 25px;
+}
+
+/* Section 3 */
+
+.section3 .container > div {
+  padding: 50px 0;
+}
+
+.section3 .container p {
+  margin-top: 20px;
+}
+
+/* Section 4 */
+
+.section4 .container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.section4 .child-right {
+  text-align: right;
+}
+
+.section4 .child-right h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.section4 .child-right p {
+  margin-top: 20px;
+}
+
+/* Section 5 */
+
+.section5 .container > div {
+  text-align: center;
+  padding: 60px 0 10px 0;
+}
+
+ul {
+  padding: 20px 0;
+}
+
+.section5 li {
+  margin: 10px;
+  display: inline;
+  list-style: none;
+  font-size: 35px;
+}
+
+.section5 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Section 6 */
+
+.section6 .container > div {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section6 p {
+  font-size: 12px;
+}
+
+/* Media queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  .card {
+    flex-basis: 70%;
+    margin: 10px;
+  }
+
+  .flex-column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order-one {
+    order: 1;
+  }
+
+  .order-two {
+    order: 2;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
