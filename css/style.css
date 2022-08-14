@@ -303,7 +303,7 @@ ul {
   }
 
   .section4 .video {
-    max-width: 370px;
+    width: 320px;
     height: auto;
   }
 }
@@ -322,6 +322,11 @@ ul {
   .container {
     width: 300px;
     margin: 0 auto;
+  }
+
+  .section4 .video {
+    width: 240px;
+    height: auto;
   }
 
 }
