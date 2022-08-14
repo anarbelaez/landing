@@ -226,6 +226,11 @@ ul, li {
   margin-top: 20px;
 }
 
+.section4 .video {
+  width: 540px;
+  min-height: 290px;
+}
+
 /* Section 5 */
 
 .section5 .container > div {
@@ -297,7 +302,7 @@ ul {
     height: auto;
   }
 
-  .video {
+  .section4 .video {
     max-width: 370px;
     height: auto;
   }
