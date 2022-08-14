@@ -226,9 +226,9 @@ ul, li {
   margin-top: 20px;
 }
 
-.section4 .video {
-  width: 540px;
-  min-height: 290px;
+.video iframe {
+  width: 560px;
+  height: 315px;
 }
 
 /* Section 5 */
@@ -302,8 +302,8 @@ ul {
     height: auto;
   }
 
-  .section4 .video {
-    width: 320px;
+  .video iframe {
+    width: 100%;
     height: auto;
   }
 }
@@ -322,11 +322,6 @@ ul {
   .container {
     width: 300px;
     margin: 0 auto;
-  }
-
-  .section4 .video {
-    width: 240px;
-    height: auto;
   }
 
 }
