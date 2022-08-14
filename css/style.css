@@ -226,6 +226,10 @@ ul, li {
   margin-top: 20px;
 }
 
+.video {
+  max-width: 560px;
+}
+
 .video iframe {
   width: 560px;
   height: 315px;
@@ -302,6 +306,9 @@ ul {
     height: auto;
   }
 
+  .video {
+    max-width: 270px;
+  }
   .video iframe {
     width: 100%;
     height: auto;
