@@ -227,8 +227,8 @@ ul, li {
 }
 
 .video iframe {
-  width: 560px;
-  height: 315px;
+  width: 560px !important;
+  height: 315px !important;
 }
 
 /* Section 5 */
